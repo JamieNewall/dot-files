@@ -1,0 +1,11 @@
+! -*- coding: utf-8 -*-
+
+! keycode 9= Escape NoSymbol Escape
+! keycode 66 = Caps_Lock NoSymbol Caps_Lock
+
+clear Lock
+remove Lock = Escape NoSymbol Escape
+keysym Escape = Escape
+add Lock = Escape
+!clear Lock
+!keycode 66 = Escape NoSymbol Escape
